@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 
-class MainActivity : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
                 password.setError("password is requires!")
                 email.setError("email is required!")
             } else {
-                val intent = Intent(this,SubmitPage::class.java)
+                val intent = Intent(this,WelcomeActivity::class.java)
                 startActivity(intent)
 
         }
