@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/welcome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
         android:shadowColor="#EFC3C3"
         android:text="@string/Welcome"
         android:textColor="#DD0C0C"
