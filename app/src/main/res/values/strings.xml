@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="submitButtton">submit</string>
+    <string name="Welcome">welcome to my application</string>
+    <string name="email">enter your email</string>
+    <string name="password">enter your password</string>
+
+</resources>
