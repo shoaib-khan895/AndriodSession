@@ -7,6 +7,6 @@ class WelcomeActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.Welcome_Activity)
+        setContentView(R.layout.welcome_activity)
     }
 }

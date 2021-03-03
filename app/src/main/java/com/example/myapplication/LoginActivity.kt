@@ -16,9 +16,13 @@ class LoginActivity : AppCompatActivity() {
         submit.setOnClickListener {
            
             if (TextUtils.isEmpty(email.getText())) {
-                password.setError("password is requires!")
+
                 email.setError("email is required!")
-            } else {
+            }
+            else if (TextUtils.isEmpty(password.getText())){
+                password.setError("password is requires!")
+            }
+            else {
                 val intent = Intent(this,WelcomeActivity::class.java)
                 startActivity(intent)
 
